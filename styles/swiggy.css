@@ -1,0 +1,387 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../assets/fonts/Gilroy-Bold-Rupee.woff2);
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(../assets/fonts/Gilroy-Medium-Rupee.woff2);
+}
+
+@font-face {
+    font-family: Gilroy-SemiBold;
+    src: url(../assets/fonts/Gilroy-SemiBold-Rupee.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-page{
+    overflow-x: hidden;
+    width: 100%;;
+}
+
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+
+}
+.leftportion{
+    padding-top: 15px;
+    padding-left: 120px;
+    flex-direction: row;
+    display: flex;
+    float: left;
+}
+.logo-portion{
+    margin: 10px;
+    padding-left: 10px;
+    width: 25%;
+}
+.logo{
+    width: 48px;
+    height: 48px;
+}
+#arrow{
+    color: orangered;
+    width: 25px;
+    padding-top:22px ;
+    padding-left: 10px;
+}
+.addr{
+    font-weight: bold;
+    color: black;
+    float: left;
+    padding-left: 40px;
+}
+.addr:hover{
+    color: orangered;
+}
+.rightportion{
+    padding-top: 18px;
+    padding-left: 250px;
+    margin: 5px;
+    font-size: 16px;
+    font-family: Gilroy-Medium;
+}
+.sc{
+    color: rgb(86, 86, 86);
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 15px;
+    text-decoration: none;
+}
+.sc:hover{
+    color: orangered;
+}
+.se{
+    color: rgb(46, 46, 46);
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 15px;
+    text-decoration: none;
+}
+.se:hover{
+    color: orangered;
+}    
+.of{
+    color: rgb(46, 46, 46);
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 15px;
+    text-decoration: none;
+}
+.of:hover{
+    color: orangered;
+}
+.hl{
+    color: rgb(46, 46, 46);
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 15px;
+    text-decoration: none;
+}
+.hl:hover{
+    color: orangered;
+}
+.si{
+    color: rgb(46, 46, 46);
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 15px;
+    text-decoration: none;
+}
+.si:hover{
+    color: orangered;
+}
+.ct{
+    color: rgb(46, 46, 46);
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.ct:hover{
+    color: orangered;
+}
+.body{
+    font-family: Gilroy-Bold, sans-serif;
+    width: 100%;
+    height: 2140px;
+    padding-left: 190px;
+    padding-right: 160px;
+    background-color: rgb(249, 248, 248);
+}
+.mind{
+    padding-top: 12px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.92);
+    font-family: Gilroy-Bold, sans-serif;
+}
+.food1{
+    width: calc(100vw - 18.625rem);
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.237);
+    overflow: hidden;
+}
+.top{
+    padding-top: 12px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.92);
+}
+
+.tophotels{
+    width: calc(100vw - 20.625rem);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+.items{
+    width: 280px;
+    height: 185px;
+    margin-right: 35px;
+    border-radius: 10px;
+}
+.items1{
+    width: 250px;
+    height: 155px;
+    margin-right: 35px;
+    border-radius: 10px;
+}
+.addrfood{
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(2, 6, 12, 0.92);
+    font-family: Gilroy-Bold, sans-serif;
+}
+.addrfood1{
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(2, 6, 12, 0.92);
+    font-family: Gilroy-SemiBold, sans-serif;
+}
+.addrfood2{
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    color: rgba(72, 71, 71, 0.92);
+    font-family: Gilroy-Medium, sans-serif;
+}
+.button{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    padding: 3px 40px;
+    border-radius: 13px;
+    font-family: Gilroy-Medium, sans-serif;
+    color: rgb(67, 66, 66);
+    font-size: 14px;
+    font-weight: 200px;
+    border-color: #ffffff;
+}
+.hotels1{
+    width: calc(100vw - 20.625rem);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+.hotels2{
+    max-width: calc(100vw - 20.625rem);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+.hotels3{
+    display: flex;
+    flex-direction: row;
+}
+.best{
+    padding-top: 12px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.92);
+    font-family: Gilroy-Bold, sans-serif;
+}
+.near{
+    padding-top: 12px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.92);
+    font-family: Gilroy-Bold, sans-serif;
+}
+.button1{
+    padding-left:  5px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+}
+.button2{
+    padding-left:  5px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+}
+.nearbutton{
+    border-radius: 7px;
+    padding: 15px 30px;
+    text-align: center;
+    font-family: Gilroy-Medium, sans-serif;
+    color: rgb(67, 66, 66);
+    font-size: 16px;
+    font-weight: 400px;
+    border-color: #ffffff;
+}
+.explore{
+    padding-top: 12px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.92);
+    font-family: Gilroy-Bold, sans-serif;
+}
+.explorebutton{
+    border-radius: 7px;
+    padding: 15px 155px;
+    text-align: center;
+    font-family: Gilroy-Medium, sans-serif;
+    color: rgb(67, 66, 66);
+    font-size: 16px;
+    font-weight: 400px;
+    border-color: #ffffff;
+}
+.upperfooter{
+    width: 100%;
+    height: 101px;
+    background-color: rgb(208, 215, 224);
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+}
+.upperleft{
+    width: 50%;
+    float: left;
+    padding-left: 200px;
+}
+.upperright{
+    width: 50%;
+    float: left;
+}
+.better{
+    font-weight: 800;
+    font-size: 26px;
+    letter-spacing: -0.6px;
+    color: rgba(2, 6, 12, 0.75);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apps{
+    width: 200px;
+    height: 65px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.lowerfooter{
+    width: 100%;
+    height: 360px;
+    display: flex ;
+    background-color: black;
+    color: #fff;
+    padding-top: 30px;
+}
+.second{
+    display: block;
+    padding-left: 200px; 
+    float: left;
+} 
+.logo2{
+    width: 55px;
+    height: 55px;
+    float: left;
+}
+.name{
+    padding-top: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+.second1{
+    padding-top: 60px;
+    padding-left: 20px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footerright{
+    float: left;
+    padding-left: 70px;
+}
+.list1{
+    float: left;   
+    line-height: 35px;
+    padding-right: 50px;
+    font-family: Gilroy-Medium, sans-serif;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.list2{
+    padding-left: 70px;
+    float: left;
+    line-height: 35px;
+    padding-right: 50px;
+    font-family: Gilroy-Medium, sans-serif;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+.list4{
+    padding-left: 70px;
+    float: left;
+    line-height: 35px;
+    padding-right: 50px;
+    font-family: Gilroy-Medium, sans-serif;
+    color: rgba(255, 255, 255, 0.6);
+}
+.head1{
+    font-weight: bold;
+    color: #fff;
+}
+
+
